@@ -1,0 +1,35 @@
+programa {
+funcao inicio() {
+inteiro dia
+leia(dia)
+
+escreva("informe um número de 1 a 7: ")
+leia(dia)
+
+se(dia >=8)
+escreva("número inválido")
+
+se(dia == 1){
+escreva("seu dia é domingo")
+}
+senao se(dia == 2){
+escreva("seu dia é segunda-feira")
+}
+senao se(dia == 3){
+escreva("seu dia é terça-feira")
+}
+senao se(dia == 4){
+escreve("seu dia é quarta-feira")
+}
+senao se(dia == 5){
+escreva("seu dia é quinta-feira")
+}
+senao se(dia == 6){
+escreva("seu dia é sexta-feira")
+}
+senao{
+(dia == 7)
+escreva("seu dia é sábado")
+}
+}
+}
